@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calc</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <div id="calc_body">
+        <div id="screen">
+            _
+        </div><br>
+        <div class="row">
+            <!--  onclick="clickStyleChange(this.getAttribute('id'))"  -->
+            <div id="0" onclick="type(this.getAttribute('id'))" class="btn">AC</div>
+            <div id="1" onclick="type(this.getAttribute('id'))" class="btn">(</div>
+            <div id="2" onclick="type(this.getAttribute('id'))" class="btn">)</div>
+            <div id="3" onclick="type(this.getAttribute('id'))" class="btn">÷</div>
+        </div>
+        <div class="row">
+            <div id="4" onclick="type(this.getAttribute('id'))" class="btn">7</div>
+            <div id="5" onclick="type(this.getAttribute('id'))" class="btn">8</div>
+            <div id="6" onclick="type(this.getAttribute('id'))" class="btn">9</div>
+            <div id="7" onclick="type(this.getAttribute('id'))" class="btn">×</div>
+        </div>
+        <div class="row">
+            <div id="8" onclick="type(this.getAttribute('id'))" class="btn">4</div>
+            <div id="9" onclick="type(this.getAttribute('id'))" class="btn">5</div>
+            <div id="10" onclick="type(this.getAttribute('id'))" class="btn">6</div>
+            <div id="11" onclick="type(this.getAttribute('id'))" class="btn">-</div>
+        </div>
+        <div class="row">
+            <div id="12" onclick="type(this.getAttribute('id'))" class="btn">1</div>
+            <div id="13" onclick="type(this.getAttribute('id'))" class="btn">2</div>
+            <div id="14" onclick="type(this.getAttribute('id'))" class="btn">3</div>
+            <div id="15" onclick="type(this.getAttribute('id'))" class="btn">+</div>
+        </div>
+        <div class="row">
+            <div id="17" onclick="type(this.getAttribute('id'))" class="btn">.</div>
+            <div id="16" onclick="type(this.getAttribute('id'))" class="btn">0</div>
+            <div id="18" onclick="type(this.getAttribute('id'))" class="btn"><i class="material-icons">backspace</i></div>
+            <div id="19" onclick="type(this.getAttribute('id'))" class="btn">=</div>
+        </div>
+    </div>
+</body>
+</html>

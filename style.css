@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+* {
+    font-family: 'Roboto Mono', monospace;
+    background-color: #a1ddff;
+    
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+}
+#calc_body {
+    background-color: #4f7eff;
+    width: 50vw;
+    height: 82vh;
+    border-radius: 30px;
+    padding: 5vh 0 0 0;
+}
+#screen{
+    width: 39vw;
+    height: 17vh;
+    margin: 0px 2.5vw;
+    background-color: #a1ddff;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding: 0px 3vw;
+    font-size: 4vw;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 3vh 2.5vw;
+    width: 45vw;
+    background-color: #4f7eff;
+}
+/*
+#3a3a36
+#c5c4c4
+#808080
+*/
+.btn{
+    width: 8.75vw;
+    height: 5.5vh;
+    padding: 1.5vh 0.3vw;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    font-size: 4vh;
+    transition: 0.2s;
+    background-color: #6eadff;
+    overflow: hidden;
+}
+.btn:hover{
+    background-color: #93c0fc;
+}
+i{
+    background-color: inherit;
+}
